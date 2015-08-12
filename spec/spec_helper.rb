@@ -3,6 +3,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'rspec'
 require 'mongoid-compactor'
+require 'pry'
 
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each do |f|
   require f
