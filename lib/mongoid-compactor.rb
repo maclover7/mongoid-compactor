@@ -1,4 +1,5 @@
 # Setup Files:
+require 'active_support/concern'
 require 'mongoid'
 require 'mongoid-compactor/version'
 

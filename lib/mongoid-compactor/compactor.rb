@@ -1,17 +1,13 @@
 module Mongoid
   module Compactor
+    extend ActiveSupport::Concern
 
-    class Compactor
-      attr_reader :attributes
-
-      def initialize(attributes)
-        @attributes = attributes
-      end
+    module ClassMethods
 
       # Takes an array of attributes
-      def self.attributes(*attrs)
-        attrs = attrs.first if attrs.first.class == Array
-        attrs
+      def compactor_attributes(attrs)
+        #binding.pry
+        @attrs = attrs
       end
     end
 
