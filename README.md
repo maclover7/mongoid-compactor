@@ -13,6 +13,10 @@ gem 'mongoid-compactor'
 
 Stay tuned for more information.
 
+# Contributing
+
+See the Contributing file more details.
+
 # Copyright and License
 
 MIT Licensed, see the LICENSE file for more details.
