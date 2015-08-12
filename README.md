@@ -1,5 +1,7 @@
 # Mongoid::Compactor
 
+[![Build Status](https://travis-ci.org/maclover7/mongoid-compactor.svg)](https://travis-ci.org/maclover7/mongoid-compactor)
+
 A DSL for only reurning select JSON values. Designed to be the
 ActiveModel::Serializers of Mongo.
 
