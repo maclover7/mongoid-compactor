@@ -1,0 +1,16 @@
+sudo: false
+
+services:
+  - mongodb
+
+rvm:
+  - 2.0.0
+  - 2.2.0
+  - 2.2.2
+
+env:
+  - MONGOID_VERSION=3
+  - MONGOID_VERSION=4
+  - MONGOID_VERSION=5
+
+cache: bundler
