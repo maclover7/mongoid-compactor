@@ -1,10 +1,8 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gemspec
 
 case version = ENV['MONGOID_VERSION'] || '~> 4.0'
-when /5/
-  gem 'mongoid', '5.0.0.beta'
 when /4/
   gem 'mongoid', '~> 4.0'
 when /3/
@@ -15,5 +13,6 @@ end
 
 group :development, :test do
   gem 'rake'
-  gem 'rspec'
+  gem 'rspec', '~> 3.1'
+  gem 'bundler', '~> 1.0'
 end

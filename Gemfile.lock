@@ -5,7 +5,7 @@ PATH
       mongoid (>= 3.0)
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     activemodel (4.2.3)
       activesupport (= 4.2.3)
@@ -56,10 +56,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.0)
   mongoid (~> 4.0)
   mongoid-compactor!
   rake
-  rspec
+  rspec (~> 3.1)
 
 BUNDLED WITH
    1.10.5
