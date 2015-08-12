@@ -1,7 +1,7 @@
-Contributing to Mongoid::CachedJson
+Contributing to Mongoid::Compactor
 ===================================
 
-Mongoid::CachedJson is work of [many of contributors](https://github.com/maclover7/mongoid-compactor/graphs/contributors). You're encouraged to submit [pull requests](https://github.com/maclover7/mongoid-compactor/pulls), [propose features and discuss issues](https://github.com/maclover7/mongoid-compactor/issues).
+Mongoid::Compactor is work of [many of contributors](https://github.com/maclover7/mongoid-compactor/graphs/contributors). You're encouraged to submit [pull requests](https://github.com/maclover7/mongoid-compactor/pulls), [propose features and discuss issues](https://github.com/maclover7/mongoid-compactor/issues).
 
 #### Fork the Project
 
