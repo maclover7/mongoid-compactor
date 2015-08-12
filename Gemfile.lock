@@ -18,21 +18,17 @@ GEM
       tzinfo (~> 1.1)
     bson (3.2.1)
     builder (3.2.2)
-    connection_pool (2.2.0)
     diff-lcs (1.2.5)
     i18n (0.7.0)
     json (1.8.3)
     minitest (5.8.0)
-    mongoid (4.0.2)
+    mongo (2.1.0.beta)
+      bson (~> 3.0)
+    mongoid (5.0.0.beta)
       activemodel (~> 4.0)
-      moped (~> 2.0.0)
+      mongo (= 2.1.0.beta)
       origin (~> 2.1)
       tzinfo (>= 0.3.37)
-    moped (2.0.6)
-      bson (~> 3.0)
-      connection_pool (~> 2.0)
-      optionable (~> 0.2.0)
-    optionable (0.2.0)
     origin (2.1.1)
     rspec (3.3.0)
       rspec-core (~> 3.3.0)
@@ -55,6 +51,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  mongoid (= 5.0.0.beta)
   mongoid-compactor!
   rspec
 
